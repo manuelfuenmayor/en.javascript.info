@@ -122,7 +122,7 @@ new TypedArray();
     alert( arr.byteLength ); // 8 (size in bytes)
     ```
 
-5. Without arguments, creates an zero-length typed array.
+5. Without arguments, creates a zero-length typed array.
 
 We can create a `TypedArray` directly, without mentioning `ArrayBuffer`. But a view cannot exist without an underlying `ArrayBuffer`, so gets created automatically in all these cases except the first one (when provided).
 
